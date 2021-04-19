@@ -1,5 +1,8 @@
 import torch
 
+class metric:
+    def __init__(score):
+        self.dataset = 
 
 def misclass_rate(output: torch.Tensor, target: torch.Tensor):
     """
