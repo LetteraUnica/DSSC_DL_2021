@@ -176,3 +176,10 @@ def train_model(model, train_set, criterion, optimizer, n_epochs,
         return train_losses, val_losses
     
     return train_losses
+
+
+class Trainer:
+    def __init__(criterion, optimizer, n_epochs):
+        self.criterion = criterion
+        self.optimizer = optimizer
+        self.n_epochs = n_epochs
